@@ -4,7 +4,7 @@ import com.imooc.mybatis.model.User;
 import com.imooc.mybatis.model.UserShortCut;
 import org.apache.ibatis.annotations.*;
 
-//@Mapper // todo
+@Mapper // todo
 public interface UserMapper {
 
     @Select("select username from imooc_user where id = #{id} ")
@@ -39,8 +39,10 @@ public interface UserMapper {
 //    @Update("UPDATE imooc_user SET age = #{age} WHERE id = #{id}")
 //    int updateUserAgeById(@Param("age") Integer age, @Param("id") Integer id);
 
+    /* 更新用户 */
     int updateUserAgeById(@Param("age") Integer age, @Param("id") Integer id);
 
+    int updateUsernameAndScoreById(@Param("username") String username, @Param("score") Integer score, @Param("id") Integer id);
 }
 
 
