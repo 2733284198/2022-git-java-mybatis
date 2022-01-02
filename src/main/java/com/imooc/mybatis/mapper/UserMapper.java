@@ -2,10 +2,9 @@ package com.imooc.mybatis.mapper;
 
 import com.imooc.mybatis.model.User;
 import com.imooc.mybatis.model.UserShortCut;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 
+//@Mapper // todo
 public interface UserMapper {
 
     @Select("select username from imooc_user where id = #{id} ")
@@ -29,6 +28,13 @@ public interface UserMapper {
 
     UserShortCut selectUserShortcutById(Integer id);
 
+    /* 插入 :insert */
+
+    /*@Insert("INSERT INTO imooc_user(username,age,score) VALUES (#{username},#{age},#{score})")
+    @Options(useGeneratedKeys = true, keyProperty = "id")
+    int insertUser2(User user);*/
+
+    int insertUser(User user);
 }
 
 

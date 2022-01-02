@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c560949-895b-4401-bfbb-d6f9425af75f" name="Changes" comment="&#10;1、查找用户 24,200">
+    <list default="true" id="4c560949-895b-4401-bfbb-d6f9425af75f" name="Changes" comment="调用复用的&#10;1、selectUserShortcutById">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mybatis/model/UserShortCut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/mybatis/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mybatis/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +68,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.obroom.plugin.mybatislog.indexNum" value="7" />
+    <property name="com.obroom.plugin.mybatislog.indexNum" value="9" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -130,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641128917457</updated>
-      <workItem from="1641128919822" duration="8952000" />
+      <workItem from="1641128919822" duration="10689000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis计算">
       <created>1641131319563</created>
@@ -174,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641137449113</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="调用复用的&#10;1、selectUserShortcutById">
+      <created>1641139315695</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641139315695</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,11 +201,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="mybatis计算" />
     <MESSAGE value="增加mybatis-config.xml" />
     <MESSAGE value="StartWithXml2的main()" />
     <MESSAGE value="&#10;1、user的getter和setter" />
     <MESSAGE value="&#10;1、查找用户 24,200" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;1、查找用户 24,200" />
+    <MESSAGE value="调用复用的&#10;1、selectUserShortcutById" />
+    <option name="LAST_COMMIT_MESSAGE" value="调用复用的&#10;1、selectUserShortcutById" />
   </component>
 </project>
