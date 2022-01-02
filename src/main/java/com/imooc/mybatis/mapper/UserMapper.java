@@ -4,6 +4,8 @@ import com.imooc.mybatis.model.User;
 import com.imooc.mybatis.model.UserShortCut;
 import org.apache.ibatis.annotations.*;
 
+import java.util.List;
+
 @Mapper // todo
 public interface UserMapper {
 
@@ -43,6 +45,19 @@ public interface UserMapper {
     int updateUserAgeById(@Param("age") Integer age, @Param("id") Integer id);
 
     int updateUsernameAndScoreById(@Param("username") String username, @Param("score") Integer score, @Param("id") Integer id);
+
+    /* 删除用户 */
+//    @Delete("DELETE FROM imooc_user WHERE id = #{id}")
+
+    int deleteUserById(Integer id);
+
+    int deleteUserByName(String username);
+
+    /* 条件查询: OGNL表达式 */
+    User selectUserByNameCondition(User user);
+
+    /* 使用名称批量查询用户 */
+    List<User> selectUserInNames(@Param("names") List<String> names);
 }
 
 
