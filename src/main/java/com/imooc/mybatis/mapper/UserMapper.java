@@ -1,5 +1,6 @@
 package com.imooc.mybatis.mapper;
 
+import com.imooc.mybatis.model.User;
 import org.apache.ibatis.annotations.Select;
 
 public interface UserMapper {
@@ -10,6 +11,7 @@ public interface UserMapper {
     Integer selectUserAgeById(int i);
 
 //    Integer selectUsernameById(Integer id);
+    User selectUserByAgeAndScore(User user);
 }
 
 
