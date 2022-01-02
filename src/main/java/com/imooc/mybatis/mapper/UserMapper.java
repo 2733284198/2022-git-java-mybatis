@@ -35,6 +35,12 @@ public interface UserMapper {
     int insertUser2(User user);*/
 
     int insertUser(User user);
+
+//    @Update("UPDATE imooc_user SET age = #{age} WHERE id = #{id}")
+//    int updateUserAgeById(@Param("age") Integer age, @Param("id") Integer id);
+
+    int updateUserAgeById(@Param("age") Integer age, @Param("id") Integer id);
+
 }
 
 
