@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c560949-895b-4401-bfbb-d6f9425af75f" name="Changes" comment="使用名称批量查询用户">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mybatis/mapper/UserMapper.java" afterDir="false" />
-    </list>
+    <list default="true" id="4c560949-895b-4401-bfbb-d6f9425af75f" name="Changes" comment="1、使用名称批量查询用户&#10;2、批量查询用户" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.obroom.plugin.mybatislog.indexNum" value="19" />
+    <property name="com.obroom.plugin.mybatislog.indexNum" value="20" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -130,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641128917457</updated>
-      <workItem from="1641128919822" duration="13458000" />
+      <workItem from="1641128919822" duration="13491000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis计算">
       <created>1641131319563</created>
@@ -209,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641142997594</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1、使用名称批量查询用户&#10;2、批量查询用户">
+      <created>1641143377944</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641143377944</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +243,7 @@
     <MESSAGE value="更新用户updateUserAgeById&#10;1、updateUserAgeById" />
     <MESSAGE value="更新用户updateUsernameAndScoreById&#10;1、updateUsernameAndScoreById" />
     <MESSAGE value="使用名称批量查询用户" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用名称批量查询用户" />
+    <MESSAGE value="1、使用名称批量查询用户&#10;2、批量查询用户" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、使用名称批量查询用户&#10;2、批量查询用户" />
   </component>
 </project>
