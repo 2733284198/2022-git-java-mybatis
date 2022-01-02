@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c560949-895b-4401-bfbb-d6f9425af75f" name="Changes" comment="1、使用名称批量查询用户&#10;2、批量查询用户&#10;&#10;```sql&#10;&#10;INSERT INTO imooc_user (username, age, score)&#10;VALUES ('user1', 0, 100),&#10;&#9;('user2', 20, 210)&#10;&#9;&#10;```">
+    <list default="true" id="4c560949-895b-4401-bfbb-d6f9425af75f" name="Changes" comment="1、mybatis集成redis缓存">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -130,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641128917457</updated>
-      <workItem from="1641128919822" duration="13593000" />
+      <workItem from="1641128919822" duration="13868000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis计算">
       <created>1641131319563</created>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641143394755</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1、mybatis集成redis缓存">
+      <created>1641143744482</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1641143744482</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +262,7 @@
     <MESSAGE value="使用名称批量查询用户" />
     <MESSAGE value="1、使用名称批量查询用户&#10;2、批量查询用户" />
     <MESSAGE value="1、使用名称批量查询用户&#10;2、批量查询用户&#10;&#10;```sql&#10;&#10;INSERT INTO imooc_user (username, age, score)&#10;VALUES ('user1', 0, 100),&#10;&#9;('user2', 20, 210)&#10;&#9;&#10;```" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、使用名称批量查询用户&#10;2、批量查询用户&#10;&#10;```sql&#10;&#10;INSERT INTO imooc_user (username, age, score)&#10;VALUES ('user1', 0, 100),&#10;&#9;('user2', 20, 210)&#10;&#9;&#10;```" />
+    <MESSAGE value="1、mybatis集成redis缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、mybatis集成redis缓存" />
   </component>
 </project>
