@@ -20,6 +20,15 @@
             <artifactId>mybatis</artifactId>
             <version>3.5.4</version>
         </dependency>
+
+        <!-- mybatis.redis缓存 -->
+        <dependency>
+            <groupId>org.mybatis.caches</groupId>
+            <artifactId>mybatis-redis</artifactId>
+            <version>1.0.0-beta2</version>
+        </dependency>
+
+
         <!-- mysql 驱动 -->
         <dependency>
             <groupId>mysql</groupId>
