@@ -58,6 +58,11 @@ public interface UserMapper {
 
     /* 使用名称批量查询用户 */
     List<User> selectUserInNames(@Param("names") List<String> names);
+
+    /* 批量插入用户 */
+    int insertUsers(@Param("users") List<User> users);
+
+
 }
 
 
