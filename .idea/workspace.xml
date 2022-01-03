@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c560949-895b-4401-bfbb-d6f9425af75f" name="Changes" comment="1、&lt;!-- tk.mybatis --&gt;">
+    <list default="true" id="4c560949-895b-4401-bfbb-d6f9425af75f" name="Changes" comment="1、pagehelper插件:begin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,18 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="docker-desktop" />
     <option name="namespace" value="default" />
@@ -68,11 +79,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.obroom.plugin.mybatislog.indexNum" value="20" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.StartWithMapper">
     <configuration name="StartNoXml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -130,7 +141,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641128917457</updated>
-      <workItem from="1641128919822" duration="13986000" />
+      <workItem from="1641128919822" duration="15342000" />
+      <workItem from="1641178314938" duration="1425000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis计算">
       <created>1641131319563</created>
@@ -237,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641143794239</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1、pagehelper插件:begin">
+      <created>1641143901272</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1641143901272</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +272,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -271,6 +291,7 @@
     <MESSAGE value="1、使用名称批量查询用户&#10;2、批量查询用户&#10;&#10;```sql&#10;&#10;INSERT INTO imooc_user (username, age, score)&#10;VALUES ('user1', 0, 100),&#10;&#9;('user2', 20, 210)&#10;&#9;&#10;```" />
     <MESSAGE value="1、mybatis集成redis缓存" />
     <MESSAGE value="1、&lt;!-- tk.mybatis --&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、&lt;!-- tk.mybatis --&gt;" />
+    <MESSAGE value="1、pagehelper插件:begin" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、pagehelper插件:begin" />
   </component>
 </project>
